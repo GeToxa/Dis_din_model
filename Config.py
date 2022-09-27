@@ -31,7 +31,7 @@ def generatr_data():
 
         sp = []
         for i in data:
-            i += rd.randint(1, 3)
+            i += rd.randint(1, 7)
             sp.append(i)
         new_data += sp
     return new_data
